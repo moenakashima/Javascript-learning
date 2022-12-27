@@ -7,9 +7,10 @@ const plantNeedsWater = function(day) {
       return false;
     }
   };
-  */
+*/
 
-  // Using Arrow Functions, you can write the code above like below.
+// Using Arrow Functions, you can write the code above like below.
+/*
   const plantNeedsWater = (day) => {
     if (day === 'Wednesday') {
       return true;
@@ -17,3 +18,7 @@ const plantNeedsWater = function(day) {
       return false;
     }
   };
+*/
+
+// refactored the code above
+    const plantNeedsWater = day => day === 'Wednesday' ? true : false;
