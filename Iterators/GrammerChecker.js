@@ -30,7 +30,7 @@ storyWords[78] = 'really';
 
 let lengthCheck = storyWords.every(
   (word) => {
-    word <= 10;
+    word < 10;
   });
 
 let longWord = storyWords.forEach((word) => {
