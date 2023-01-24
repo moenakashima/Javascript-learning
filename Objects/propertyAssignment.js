@@ -6,4 +6,8 @@ let spaceship = {
   };
   
   // Write your code below
-  
+spaceship.color = 'glorious gold';
+
+spaceship.numEngines = 9;
+
+delete spaceship['Secret Mission'];
