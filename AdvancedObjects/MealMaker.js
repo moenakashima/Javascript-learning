@@ -7,7 +7,7 @@ const menu = {
     
   };
   
-  menu._meal = 12;
-  menu._price = 'hot dog';
+  menu._meal = 10;
+  menu._price = 'hot meal';
   
   console.log(menu);
